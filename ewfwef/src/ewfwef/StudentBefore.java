@@ -13,9 +13,9 @@ public class StudentBefore {
 			this.city= city;
 			
 		}
-	//	public String toString() {
-	//		return rollno +"   "+name + "   "+ city;
-		//}
+		public String toString() {
+			return rollno +"   "+name + "   "+ city;
+		}
 		public static void main(String []args) {
 			StudentBefore s1 = new StudentBefore(101, "Raj", "lucknow");
 			StudentBefore s2 = new StudentBefore(102, "vijay", "ghaziabad");
